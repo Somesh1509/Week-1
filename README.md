@@ -122,24 +122,8 @@ python main.py --mode predict --image path/to/your/solar_panel.jpg
 
 ## 📊 Dataset Preparation
 
-### Using Your Own Data
-Organize your images in the following structure:
-```
-data/raw/
-├── dust/
-│   ├── image1.jpg
-│   ├── image2.jpg
-│   └── ...
-├── snow/
-├── bird_drop/
-├── crack/
-└── healthy/
-```
-
 ### Recommended Dataset Sources
-1. **Kaggle Solar Panel Dataset**: [Solar Panel Dust Detection](https://www.kaggle.com/datasets/abhijeetgoel27/solar-panel-dust-detection)
-2. **Custom Collection**: Use your own solar panel images
-3. **Synthetic Data**: The system can generate synthetic data for testing
+1. **Kaggle Solar Panel Dataset**: [Solar Panel Dust Detection](https://www.kaggle.com/datasets/pythonafroz/solar-panel-images)
 
 ### Image Requirements
 - **Format**: JPG, JPEG, PNG
@@ -164,11 +148,11 @@ data/raw/
 
 ## 📈 Performance Metrics
 
-| Model | Accuracy | Precision | Recall | F1-Score | Training Time |
-|-------|----------|-----------|--------|----------|---------------|
-| Custom CNN | 89.2% | 88.5% | 87.9% | 88.2% | ~15 min |
-| ResNet50 | 94.7% | 94.2% | 93.8% | 94.0% | ~45 min |
-| EfficientNetB0 | 95.3% | 95.1% | 94.7% | 94.9% | ~35 min |
+| Model          | Accuracy | Precision | Recall | F1-Score | Training Time |
+|----------------|----------|-----------|--------|----------|---------------|
+| Custom CNN     | 89.2%    | 88.5%     | 87.9%  | 88.2%    | ~15 min       |
+| ResNet50       | 94.7%    | 94.2%     | 93.8%  | 94.0%    | ~45 min       |
+| EfficientNetB0 | 95.3%    | 95.1%     | 94.7%  | 94.9%    | ~35 min       |
 
 ## 🔧 Configuration
 
