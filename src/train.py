@@ -84,6 +84,7 @@ class ModelTrainer:
         )
         
         # Update num_classes based on actual data
+        # update the train model to reflect the actual number of classes
         actual_classes = len(train_generator.class_indices)
         if actual_classes != self.num_classes:
             print(f"🔄 Updating num_classes from {self.num_classes} to {actual_classes}")
