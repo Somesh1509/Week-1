@@ -31,6 +31,7 @@ class FaultPredictor:
         
         if show_grad_cam:
             # Generate Grad-CAM
+            #predict the output
             gradcam = get_grad_cam(self.model, processed_image, original_image)
             
             axes[0].imshow(original_image)
